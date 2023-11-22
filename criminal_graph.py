@@ -19,3 +19,4 @@ plt.xlabel('Age Category')
 plt.ylabel('Recidivism Rate')
 plt.xticks(rotation=0)  # x축 레이블 회전 각도 설정
 plt.show()
+plt.savefig('graph.png')
